@@ -1,0 +1,24 @@
+{
+  "name": "taskhbs-back-end",
+  "version": "1.0.0",
+  "homepage": "https://MaiMohamedSaid.github.io/Back-end-hbs-repo",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.21",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
